@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Bryan Pham" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Bryan Pham">Bryan Pham</h1>
+
+          <p class="title">Software Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:phambrya@gmail.com" class="contact-link">phambrya@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+14253448512" class="contact-link">(425) 344-8512</a>
+            </div>
+
+          </li>
+          
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Linkedin Profile</p>
+
+              <a href="https://www.linkedin.com/in/phambrya/" class="contact-link">
+                Linkedin
+              </a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Washington, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text"> 
+          <p>
+          Hey there! The name's Bryan, and I'm all about diving headfirst into the exciting world of software development. 
+          </p>
+          <p>
+          Just got my hands on a shiny new degree in Computer Science, and I'm itching to put my technical knowledge and problem solving skills 
+          to work on some real-world projects.
+          </p>
+          <p>
+          You know, during my time at university, I had this incredible opportunity to roll up my sleeves and get involved in a bunch of software 
+          development projects. Man, did that teach me a lot! I really got a handle on the whole software development life cycle and came to appreciate 
+          just how crucial teamwork, collaboration, and good ol' communication are in a team environment.
+          </p>
+          <p>
+          When it comes to my interests, I'm all about software development, database design, and building mobile apps. I enjoy working with a variety of 
+          programming languages such as C, Python, Java and more. And hey, I've got some SQL database, React Native, and Flutter skills under my belt too!
+          </p>
+          <p>
+          But it's not all geeky stuff, you know? In my downtime, I'm that guy who's constantly geeking out over the latest tech trends and having a 
+          blast experimenting with new programming languages and frameworks. Oh, and when I'm not behind a computer screen, you'll find me getting my 
+          hands dirty with cars, snapping photos with my trusty camera, or getting my game on at the volleyball court.
+          </p>
+          <p>
+          Fresh out of university, I'm stoked to embark on this exciting new chapter, hungry to soak up knowledge from experienced pros and make a 
+          meaningful impact with my skills. So, don't be shy! If you're interested in connecting or want to know more about what I bring to the table, 
+          please do not hesitate to reach out.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+        <!--
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm Doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Develope application using Flutter and React.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      -->
+
+        <section class="interest">
+
+          <h3 class="h3 interest-title">Interests</h3>
+          <ul class="interest-list">
+
+            <li class="interest-item">
+
+              <div class="interest-content-box">
+                <p class="interest-item-text">
+                  .Photography
+                </p>
+              </div> 
+
+            </li>
+
+            <li class="interest-item2">
+
+              <div class="interest-content-box">
+                <p class="interest-item-text2">
+                  .Soccer
+                </p>
+              </div> 
+
+            </li>
+
+            <li class="interest-item">
+
+              <div class="interest-content-box">
+                <p class="interest-item-text">
+                  .Volleyball
+                </p>
+              </div> 
+
+            </li>
+
+            <li class="interest-item2">
+
+              <div class="interest-content-box">
+                <p class="interest-item-text2">
+                  .Problem Solving
+                </p>
+              </div> 
+
+            </li>
+
+            <li class="interest-item2">
+
+              <div class="interest-content-box">
+                <p class="interest-item-text2">
+                  .Math
+                </p>
+              </div> 
+
+            </li>
+
+            <li class="interest-item">
+
+              <div class="interest-content-box">
+                <p class="interest-item-text">
+                  .Chess
+                </p>
+              </div> 
+
+            </li>
+
+            <li class="interest-item2">
+
+              <div class="interest-content-box">
+                <p class="interest-item-text2">
+                  .Listening to Music
+                </p>
+              </div> 
+
+            </li>
+
+            <li class="interest-item">
+
+              <div class="interest-content-box">
+                <p class="interest-item-text">
+                  .Learning Languages
+                </p>
+              </div> 
+
+            </li>
+
+          </ul>
+
+        <section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  N/A
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Western Washington University</h4>
+
+              <span>Graduated 2023</span>
+
+              <p class="timeline-text">
+               Degree: Bachelor of Science in Computer Science
+              </p>
+              <p class="timeline-text">GPA: 3.5 </p>
+              <p class="timeline-text">
+                Relevant Coursework: Analysis of Algorithms and Data Structures, Database System, Operating
+                System, Network, Object-Oriented Programming, Computer System, Data Science
+              </p>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Learning Ambassador</h4>
+
+              <span>2020 — 2021</span>
+
+              <p class="timeline-text">
+                Responsible for directly influencing the growth of existing and new employees by motivating the team through frequent communication, coaching, and strategic direction.
+              </p>
+              <p class="timeline-text">
+                &nbsp;&nbsp;&nbsp;- Administered front-line assistance for tracking shipments, excel, and timely resolution, as well as supered over +150 warehouse pickers on their delivery routes.
+              </p>
+              <p class="timeline-text">
+                &nbsp;&nbsp;&nbsp;- Overseeing the operations including managing over fifty-thousand packages per day through extensive communication of +30 faculty.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">React Native</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Fluter</h5>
+                <data value="20">20%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 20%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Investment</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Machine Learning</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Electronic</button>
+            </li> 
+
+            <li class="filter-item">
+              <button data-filter-btn>Network</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Shell</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Investment</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Machine Learning</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Electronic</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Network</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Shell</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list"> 
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-off-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.png" alt="MindBot" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MindBot</h3>
+
+                <p class="project-category">Build an IOS/Android Mobile Application with React Native and Firebase Database. Machine learning to develop a 
+                  chatbot where the user could get and instance response. Conducting useability and quantitative research on how user interact with the Mindbot
+                  interface. (Unable to make repo public due to it being an on going research)
+                </p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="electronic">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-off-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="Weather Water Station" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Weather Water Station</h3>
+
+                <p class="project-category">Lead a team of nine by delegating tasks and communicating during weekly team meeting. Building and testing a buoy 
+                  using a SparkFun ESP32 Thingy by connecting sensors to receive data of the water condition through Bluetooth using C. Develope an application 
+                  using Flutter to connect with the buoy via bluetooth. (Unable to make public due to it being an on going research)
+                </p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/phambrya/digitRecognition">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.png" alt="Handwritten Digit Recognition" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Handwritten Digit Recognition</h3>
+
+                <p class="project-category">Built a Python deep learning project on handwritten digit recognition. Driving into learning about the deep 
+                  neural network known as Convolutional Neural Network. Built a GUI, which we can draw the digit and recognize it right away providing an 
+                  accuracy percentage.
+                </p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="network">
+              <a href="https://github.com/phambrya/checkers">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="Checker" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Checker</h3>
+
+                <p class="project-category">This project has the Western Washington University CS remote system setup in mind. It is designed for two users to ssh 
+                  into the same computer and play checkers with each other on a local network through two unique terminal sessions.
+                </p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="network">
+              <a href="https://github.com/phambrya/logosnet">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="Online Chat" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Online Chat</h3>
+
+                <p class="project-category">I will implement a server and two types of clients for an online chat application: observers and participants. 
+                  Observers receive and display messages from the server in real-time, while participants can send messages to other participants, 
+                  including private messages. The server can handle up to 255 observers and 255 participants. Users can leave at any time, and participants 
+                  need to create a unique username upon connection. 
+
+                </p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="shell">
+              <a href="https://github.com/phambrya/microshell">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Microshell</h3>
+
+                <p class="project-category">
+                  Microshell will be able to parse through the user input and execute the command with it built-in commands. The built-in commands 
+                  are "pwd", "stat", "cd", "tail", and "env". All other commands will be executed with the system shell. This project is written in C.
+                </p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCDCn1-FFxA_mFinaGWbIFlf8h1KY9Aezw&q=Seattle+WA"
+              width="400" height="300" loading="lazy">
+            </iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
