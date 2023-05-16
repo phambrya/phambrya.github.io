@@ -145,7 +145,7 @@ input, textarea {
 
 :focus { outline-color: var(--orange-yellow-crayola); }
 
-html { font-family: var(--ff-poppins); }
+html { font-family: var(--ff-poppins); color: var(--light-gray); }
 
 body { background: var(--smoky-black); }
 
@@ -1399,7 +1399,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .service-content-box { text-align: left; }
 
  /* interest */
-
+/*
   .interest-item {
     display: flex;
     justify-content: flex-start;
@@ -1407,7 +1407,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     gap: 18px;
     padding: 30px;
   }
-
+*/
   .interest-icon-box {
     margin-bottom: 0;
     margin-top: 5px;
@@ -1473,13 +1473,14 @@ textarea.form-input::-webkit-resizer { display: none; }
     color: var(--light-gray);
     font-size: var(--fs-6);
     font-weight: var(--fw-3);
-    line-height: 1.6;
+    line-height: 1.2;
   }
+
   .interest-item-text2 {
-    color: var(--black);
+    color: black;
     font-size: var(--fs-6);
     font-weight: var(--fw-3);
-    line-height: 1.6;
+    line-height: 1.2;
   }
 
 
